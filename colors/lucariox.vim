@@ -35,6 +35,7 @@ hi IncSearch    ctermfg=23 ctermbg=158 cterm=NONE guifg=#2b3e50 guibg=#caf9f4 gu
 hi Search       ctermfg=white ctermbg=darkblue cterm=underline guifg=#90fff0 guibg=#2050d0 gui=underline
 hi Directory    ctermfg=177 ctermbg=NONE cterm=NONE guifg=#ca94ff guibg=NONE gui=NONE
 hi Folded       ctermfg=68 ctermbg=23 cterm=NONE guifg=#5c98cd guibg=#2b3e50 gui=NONE
+hi Error        ctermfg=black ctermbg=red cterm=NONE guifg=black guibg=red gui=NONE
 
 hi Terminal     ctermfg=lightgrey ctermbg=black cterm=NONE guifg=lightgrey guibg=black gui=NONE
 
