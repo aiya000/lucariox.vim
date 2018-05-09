@@ -20,7 +20,7 @@ endif
 let g:colors_name = "lucariox"
 
 hi Cursor       cterm=NONE guifg=#2b3e50 guibg=#f8f8f2
-hi Visual       ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#19242f gui=NONE
+hi Visual       ctermfg=Black ctermbg=Green cterm=NONE guifg=Black guibg=Green gui=NONE
 hi CursorLine   ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#405160 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#405160 gui=NONE
 hi ColorColumn  ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#405160 gui=NONE
@@ -32,7 +32,7 @@ hi StatusLineNC ctermfg=231 ctermbg=60 cterm=NONE guifg=#f8f8f2 guibg=#66747f gu
 hi Pmenu        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#19242f gui=NONE
 hi PmenuSel     ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#66747f gui=NONE
 hi IncSearch    ctermfg=23 ctermbg=158 cterm=NONE guifg=#2b3e50 guibg=#caf9f4 gui=NONE
-hi Search       ctermfg=white ctermbg=darkblue cterm=underline guifg=#90fff0 guibg=#2050d0 gui=underline
+hi Search       ctermfg=white ctermbg=darkgreen cterm=underline guifg=white guibg=darkgreen gui=underline
 hi Directory    ctermfg=177 ctermbg=NONE cterm=NONE guifg=#ca94ff guibg=NONE gui=NONE
 hi Folded       ctermfg=68 ctermbg=23 cterm=NONE guifg=#5c98cd guibg=#2b3e50 gui=NONE
 hi Error        ctermfg=black ctermbg=red cterm=NONE guifg=black guibg=red gui=NONE
@@ -40,7 +40,7 @@ hi Error        ctermfg=black ctermbg=red cterm=NONE guifg=black guibg=red gui=N
 hi Terminal     ctermfg=lightgrey ctermbg=black cterm=NONE guifg=lightgrey guibg=black gui=NONE
 
 " Colors for tabs in cterm
-hi TabLineFill  ctermfg=12
+hi TabLineFill  ctermfg=64
 hi TabLine      ctermfg=17 ctermbg=11 cterm=NONE
 hi TabLineSel   ctermfg=8 ctermbg=14 cterm=NONE
 
