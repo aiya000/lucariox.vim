@@ -43,7 +43,7 @@ hi TabLineFill  ctermfg=64
 hi TabLine      ctermfg=17 ctermbg=11 cterm=NONE
 hi TabLineSel   ctermfg=8 ctermbg=14 cterm=NONE
 
-hi Normal       ctermfg=248 ctermbg=NONE cterm=NONE guifg=#c0c0c0 guibg=#2b3e50 gui=NONE
+hi Normal       ctermfg=lightgrey ctermbg=NONE cterm=NONE guifg=lightgrey guibg=#2b3e50 gui=NONE
 hi Boolean      ctermfg=177 ctermbg=NONE cterm=NONE guifg=#ca94ff guibg=NONE gui=NONE
 hi Character    ctermfg=177 ctermbg=NONE cterm=NONE guifg=#ca94ff guibg=NONE gui=NONE
 hi Comment      ctermfg=44 ctermbg=NONE cterm=NONE guifg=#5c98cd guibg=NONE gui=NONE
