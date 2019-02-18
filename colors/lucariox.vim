@@ -11,8 +11,6 @@
 set background=dark
 highlight clear
 
-set t_Co=256
-
 if exists("syntax_on")
   syntax reset
 endif
@@ -21,10 +19,10 @@ let g:colors_name = "lucariox"
 
 hi Cursor       cterm=NONE guifg=#2b3e50 guibg=#f8f8f2
 hi Visual       ctermfg=Black ctermbg=Green cterm=NONE guifg=Black guibg=Green gui=NONE
-hi CursorLine   ctermfg=NONE ctermbg=65 cterm=NONE guifg=NONE guibg=white gui=NONE
+hi CursorLine   ctermfg=NONE ctermbg=65 cterm=NONE guifg=white guibg=darkgreen gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#405160 gui=NONE
 hi ColorColumn  ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#405160 gui=NONE
-hi LineNr       ctermfg=223 ctermbg=NONE cterm=NONE guifg=#929ba1 guibg=#2b3e50 gui=NONE
+hi LineNr       ctermfg=223 ctermbg=NONE cterm=NONE guifg=#929ba1 guibg=black gui=NONE
 hi VertSplit    ctermfg=60 ctermbg=60 cterm=NONE guifg=#66747f guibg=#66747f gui=NONE
 hi MatchParen   ctermfg=203 ctermbg=NONE cterm=underline guifg=#ff6541 guibg=NONE gui=underline
 hi StatusLine   ctermfg=231 ctermbg=60 cterm=bold guifg=#f8f8f2 guibg=#66747f gui=bold
@@ -43,7 +41,7 @@ hi TabLineFill  ctermfg=64
 hi TabLine      ctermfg=lightgray ctermbg=black cterm=NONE
 hi TabLineSel   ctermfg=black ctermbg=gray cterm=NONE
 
-hi Normal       ctermfg=lightgrey ctermbg=NONE cterm=NONE guifg=lightgrey guibg=#2b3e50 gui=NONE
+hi Normal       ctermfg=lightgrey ctermbg=NONE cterm=NONE guifg=lightgrey guibg=black gui=NONE
 hi Boolean      ctermfg=177 ctermbg=NONE cterm=NONE guifg=#ca94ff guibg=NONE gui=NONE
 hi Character    ctermfg=177 ctermbg=NONE cterm=NONE guifg=#ca94ff guibg=NONE gui=NONE
 hi Comment      ctermfg=44 ctermbg=NONE cterm=NONE guifg=#5c98cd guibg=NONE gui=NONE
@@ -61,7 +59,7 @@ hi Function     ctermfg=cyan ctermbg=NONE cterm=NONE guifg=#77f4ea guibg=NONE gu
 hi Identifier   ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
 hi Keyword      ctermfg=203 ctermbg=NONE cterm=NONE guifg=#ff6541 guibg=NONE gui=NONE
 hi Label        ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi NonText      ctermfg=74 ctermbg=NONE cterm=NONE guifg=#61bbc8 guibg=#354758 gui=NONE
+hi NonText      ctermfg=74 ctermbg=NONE cterm=NONE guifg=#61bbc8 guibg=black gui=NONE
 hi Number       ctermfg=177 ctermbg=NONE cterm=NONE guifg=#ca94ff guibg=NONE gui=NONE
 hi Operator     ctermfg=203 ctermbg=NONE cterm=NONE guifg=#ff6541 guibg=NONE gui=NONE
 hi PreProc      ctermfg=magenta ctermbg=NONE cterm=NONE guifg=#ff80ff guibg=NONE gui=NONE
