@@ -137,3 +137,6 @@ hi cssBraces        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE g
 " Python
 hi pythonStatement ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi pythonBuiltin   ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
+
+" Termdebug
+hi debugPC term=reverse ctermbg=65 guibg=darkgreen
