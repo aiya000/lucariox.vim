@@ -19,7 +19,7 @@ let g:colors_name = "lucariox"
 
 hi Cursor       cterm=NONE guifg=#2b3e50 guibg=#f8f8f2
 hi Visual       ctermfg=Black ctermbg=Green cterm=NONE guifg=Black guibg=Green gui=NONE
-hi CursorLine   ctermfg=NONE ctermbg=65 cterm=NONE guifg=white guibg=darkgreen gui=NONE
+hi CursorLine   ctermfg=NONE ctermbg=NONE term=undercurl guifg=NONE guibg=NONE gui=underline guisp=Green
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#405160 gui=NONE
 hi ColorColumn  ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#405160 gui=NONE
 hi LineNr       ctermfg=223 ctermbg=NONE cterm=NONE guifg=#929ba1 guibg=black gui=NONE
