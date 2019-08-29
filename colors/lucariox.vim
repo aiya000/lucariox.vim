@@ -140,3 +140,7 @@ hi pythonBuiltin   ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE g
 
 " Termdebug
 hi debugPC term=reverse ctermbg=65 guibg=darkgreen
+
+" Spell
+hi SpellBad ctermfg=cyan ctermbg=NONE term=undercurl guifg=NONE guibg=NONE gui=underline guisp=red
+hi SpellCap ctermfg=blue ctermbg=NONE term=undercurl guifg=NONE guibg=NONE gui=underline guisp=red
